@@ -14,8 +14,8 @@ import streamlit as st
 
 BASE_DIR = Path(__file__).resolve().parent
 
-MODEL_PATH = BASE_DIR / "netflix_churn_model.pkl"
-FEATURES_PATH = BASE_DIR / "netflix_churn_features.pkl"
+MODEL_PATH = BASE_DIR / "netflix_churn_model(2).pkl"
+FEATURES_PATH = BASE_DIR / "netflix_churn_features(2).pkl"
 DATA_PATH = BASE_DIR / "netflix_customer_churn.xls"
 try:
     model = joblib.load(MODEL_PATH)
