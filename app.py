@@ -16,7 +16,7 @@ BASE_DIR = Path(__file__).resolve().parent
 
 MODEL_PATH = BASE_DIR / "netflix_churn_model.pkl"
 FEATURES_PATH = BASE_DIR / "netflix_churn_features.pkl"
-DATA_PATH = BASE_DIR / "netflix_customer_churn.csv"
+DATA_PATH = BASE_DIR / "netflix_customer_churn.xls"
 
 st.set_page_config(
     page_title="Netflix Churn Predictor",
